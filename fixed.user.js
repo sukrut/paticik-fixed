@@ -1,9 +1,8 @@
 // ==UserScript==
-// @include       https://forum.paticik.com/*
-// @name          paticik-fixed
-// @description   paticik fixed
-// @license       MIT
-// @version       0.1
+// @name         paticik-fixed
+// @include      https://forum.paticik.com/*
+// @version      0.1
+// @description  green theme fixed
 // @author       bonesoul
 // @run-at       document-start
 // @grant        GM_addStyle
