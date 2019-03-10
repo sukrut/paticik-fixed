@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name         paticik-fixed
-// @include      https://forum.paticik.com/*
-// @version      0.1
-// @description  green theme fixed
+// @namespace     https://openuserjs.org/users/bonesoul
+// @name          paticik-fixed
+// @description   paticik fixed
+// @copyright     2019, bonesoul (https://openuserjs.org/users/bonesoul)
+// @license       OSI-SPDX-Short-Identifier
+// @version       0.1.0
 // @author       bonesoul
+// @include       https://forum.paticik.com/*
 // @run-at       document-start
 // @grant        GM_addStyle
 // @require http://code.jquery.com/jquery-3.3.1.min.js
@@ -12,6 +15,7 @@
 // ==OpenUserJS==
 // @author bonesoul
 // ==OpenUserJS==
+// ==UserScript==
 
 (function() {
     'use strict';
