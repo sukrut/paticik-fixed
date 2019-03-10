@@ -3,7 +3,7 @@
 // @name          paticik-fixed
 // @description   paticik fixed
 // @copyright     2019, bonesoul (https://openuserjs.org/users/bonesoul)
-// @license       MIT
+// @license       MIT; https://opensource.org/licenses/MIT
 // @version       0.1.0
 // @author       bonesoul
 // @include       https://forum.paticik.com/*
