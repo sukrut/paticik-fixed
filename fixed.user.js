@@ -7,6 +7,7 @@
 // @run-at       document-start
 // @grant        GM_addStyle
 // @require http://code.jquery.com/jquery-3.3.1.min.js
+// @namespace https://greasyfork.org/users/259131
 // ==/UserScript==
 
 (function() {
