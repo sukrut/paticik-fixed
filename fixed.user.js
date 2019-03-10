@@ -1,11 +1,10 @@
 // ==UserScript==
+// @include       https://forum.paticik.com/*
 // @name          paticik-fixed
 // @description   paticik fixed
-// @license CC-BY-SA-3.0; http://creativecommons.org/licenses/by-sa/3.0/
-// @namespace     https://openuserjs.org/users/bonesoul
-// @version       0.1.0
+// @license       MIT
+// @version       0.1
 // @author       bonesoul
-// @include       https://forum.paticik.com/*
 // @run-at       document-start
 // @grant        GM_addStyle
 // @require http://code.jquery.com/jquery-3.3.1.min.js
