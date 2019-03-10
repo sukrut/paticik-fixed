@@ -1,9 +1,8 @@
 // ==UserScript==
-// @namespace     https://openuserjs.org/users/bonesoul
 // @name          paticik-fixed
 // @description   paticik fixed
-// @copyright     2019, bonesoul (https://openuserjs.org/users/bonesoul)
 // @license CC-BY-SA-3.0; http://creativecommons.org/licenses/by-sa/3.0/
+// @namespace     https://openuserjs.org/users/bonesoul
 // @version       0.1.0
 // @author       bonesoul
 // @include       https://forum.paticik.com/*
