@@ -15,77 +15,96 @@
 
     // change bg color
     GM_addStyle(`
-.ipsApp {
+    .ipsUserPhoto{
+         display: none !important;
+     }
+    .ipsApp {
          background-color: #e8e9e3 !important;
-}
-
+    }
      #ipsLayout_header {
          width: 900px !important;
          margin: 0 auto;
       }
-
-.nav-bar-wrap {
+    .nav-bar-wrap {
         width: 900px !important;
         margin: 0 auto;
-}
-
-.nav-bar {
-background-color: #e8e9e3 !important;
-}
-
-      .content-wrap {
+    }
+    .nav-bar {
+        background-color: #e8e9e3 !important;
+    }
+    .content-wrap {
          width: 900px !important;
          margin: 0 auto;
-      }
-
-.ipsPageHeader {
+    }
+    .ipsPageHeader {
          background-color: #e8e9e3 !important;
-}
-
-      .focus-topic {
+    }
+    .focus-topic {
         background-color: #e8e9e3 !important;
-      }
-
-      .ipsColumn_fluid {
-         background-color: #e8e9e3;
+    }
+    .ipsColumn_fluid {
          padding-left: 15px !important;
-      }
-
-      .ipsItemControls {
+    }
+    .ipsItemControls {
+         //background-color: #e8e9e3 !important;
+         display: none;
+         padding: 0 !important;
+         margin-left: 0 !important;
+    }
+    .ipsQuote {
          background-color: #e8e9e3 !important;
-      }
-
-      .cAuthorPane_info {
-        display: none;
-      }
-
-      .ipsComment_author {
-        display: none;
-      }
-
-      .ipsItemControls {
-        display: none;
-      }
-
-.ipsQuote {
+    }
+    .cPost::before {
+         display: none;
+    }
+    .cPost {
+         border-top: 1px solid black !important;
+         border-left: 1px solid black !important;
+         border-right: 1px solid black !important;
+    }
+    .cForumRow {
          background-color: #e8e9e3 !important;
-}
-
-.cForumRow {
-         background-color: #e8e9e3 !important;
-}
+    }
+    .cAuthorPane_info li:first-child {
+        display: none;
+    }
+    .cAuthorPane_info li:nth-child(6) {
+        display: none;
+    }
+    .cAuthorPane_photo {
+        display: none;
+    }
+    .cAuthorPane {
+         border-right: 1px solid black !important;
+    }
+    .ipsComment_meta {
+         color: black !important;
+         border-bottom: 1px solid black !important;
+    }
+    .ipsComment_author {
+         padding: 0 !important;
+    }
+    .cAuthorPane_author {
+         color: black !important;
+    }
+    .cAuthorPane_info:after {
+         display: none !important;
+    }
+    .cAuthorPane_info {
+         padding-top: 0 !important;
+    }
     `);
 
     $(document).ready(function() {
 
-        $("article.cPost").each(function() {
-           var poster = $(this).find("aside.ipsComment_author > h3 > strong").html();
-           var topBar = $(this).find("div.ipsComment_meta > div.ipsType_reset > a");
-           topBar.prepend(poster);
-          console.dir(poster);
+        $("article").each(function(index) {
+             if(index % 2 === 0)
+             {
+               $(this).css("background-color", "#e8e9e3");
+             } else
+             {
+               $(this).css("background-color", "#9ca184");
+             }
         });
-
-
-
     });
 })();
