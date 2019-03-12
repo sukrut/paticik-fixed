@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         paticik-fixed-debug
 // @include      https://forum.paticik.com/*
-// @version      0.4
+// @version      0.3
 // @description  green theme fixed
 // @author       bonesoul
 // @run-at       document-start
