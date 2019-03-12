@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         paticik-fixed
+// @name         paticik-fixed-debug
 // @include      https://forum.paticik.com/*
 // @version      0.3
 // @description  green theme fixed
@@ -137,6 +137,10 @@
     /* topic list bar */
     .ipsGrid {
         background-color: #d3e3c0 !important
+    }
+    /* post author color */
+    .cAuthorPane_author {
+        color: #444 !important;
     }
     `);
 })();
