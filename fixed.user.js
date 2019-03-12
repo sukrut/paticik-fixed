@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         paticik-fixed-debug
+// @name         paticik-fixed
 // @include      https://forum.paticik.com/*
 // @version      0.3
 // @description  green theme fixed
