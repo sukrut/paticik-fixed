@@ -223,5 +223,15 @@
     .ipsGrid {
         background-color: #d3e3c0 !important
     }
+
+    /* ========================================
+       @mentions
+       ========================================*/
+
+    /* change bgcolor of @mentions. */
+
+    a[data-mentionid] {
+        background-color: #9ca184 !important;
+    }
     `);
 })();
