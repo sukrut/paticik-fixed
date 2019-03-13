@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         paticik-fixed
 // @include      https://forum.paticik.com/*
-// @version      0.3
-// @description  green theme fixed
+// @version      0.4
+// @description  reverts paticik.com too good old classi theme.
 // @author       bonesoul
 // @run-at       document-start
 // @grant        GM_addStyle
