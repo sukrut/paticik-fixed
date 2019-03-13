@@ -21,7 +21,7 @@
     /* fix site-wide font */
 
     body {
-        font-family: verdana, sans-serif, helvetica !important
+        font-family: verdana, sans-serif, helvetica !important;
     }
 
     /* add top-margin */
@@ -115,12 +115,9 @@
 
     /* fix more button */
 
-    .focus-nav-more,.focus-nav-more a:hover {
+    .focus-nav-more, .focus-nav-more > a, .focus-nav-more > a:hover {
          background-color: #c8d2b0 !important;
-    }
-
-    .focus-nav-more a {
-        background-image: none !important;
+         background-image: none !important;
     }
 
     /*  ========================================
