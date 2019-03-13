@@ -323,6 +323,10 @@
             color: #333 !important;
         }
 
+        .ipsStreamItem:after {
+            border-right-color: #d3e3c0 !important;
+          }
+
         /*  ========================================
             polls
             ========================================*/
