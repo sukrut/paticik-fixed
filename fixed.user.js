@@ -42,8 +42,8 @@
 
     /* main content width fix */
     .content-wrap {
-         width: 900px !important;
-         margin: 0 auto;
+        width: 900px !important;
+        margin: 0 auto;
     }
 
     /*  ========================================
@@ -59,21 +59,21 @@
     /* remove bg-image from header. */
 
     #header:before {
-         background-image: none !important;
+        background-image: none !important;
     }
 
     /* fix header size */
 
     #ipsLayout_header {
-         width: 900px !important;
-         margin: 0 auto;
+        width: 900px !important;
+        margin: 0 auto;
     }
 
     /* fix header aligns */
 
     .ipsLayout_container {
-         margin-left: 25px;
-         margin-right: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
     /* remove avatar from header */
@@ -125,8 +125,19 @@
         ========================================*/
 
     /* fix page header bgcolor */
+
     .ipsPageHeader {
          background-color: #c8d2b0 !important;
+    }
+
+    /* remove avatar */
+
+    .ipsPageHeader .ipsUserPhoto {
+        display: none;
+    }
+
+    .ipsPhotoPanel.ipsPhotoPanel_small > div {
+        margin-left: 15px !important;
     }
 
     /*  ========================================
@@ -136,7 +147,7 @@
     /* fix forum-row's bgcolor */
 
     .cForumRow:nth-of-type(even) {
-         background-color: #c7d2b0 !important;
+        background-color: #c7d2b0 !important;
     }
 
     .cForumRow:nth-of-type(odd) {
@@ -145,8 +156,8 @@
 
     /* forum-row title fixes */
     .ipsType_sectionTitle {
-         color: #333;
-         padding: 10px;
+        color: #333;
+        padding: 10px;
     }
 
     /*  ========================================
@@ -235,13 +246,13 @@
     /* topbar text colors */
 
     .ipsComment_meta {
-         color: #444 !important;
+        color: #444 !important;
     }
 
     /* reply box bgcolor */
 
     .cTopicPostArea {
-         background-color: #d3e3c0 !important
+        background-color: #d3e3c0 !important
     }
 
     /* post-page bottom bar */
