@@ -1,5 +1,8 @@
 # paticik-fixed
 
+converts paticik.com too good old classic theme.
+discussion: https://forum.paticik.com/index.php?/topic/8992554-paticik-classic-theme/
+
 ## how to develop with local ide?
 
 - give tampermonkey access to local files on your browser.
