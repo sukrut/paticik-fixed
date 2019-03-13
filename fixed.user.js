@@ -13,17 +13,27 @@
     'use strict';
 
     GM_addStyle(`
-    /* fix font */
+
+    /* ========================================
+       fix site-wide font.
+       ========================================*/
+
     body {
         font-family: verdana, sans-serif, helvetica !important
     }
 
-    /* add top margin */
+    /* ========================================
+       add top-margin.
+       ========================================*/
+
     .ipsApp {
         margin-top: 15px;
     }
 
-    /* fix sites generic bgcolor */
+    /* ========================================
+       fix site-wide bgcolors.
+       ========================================*/
+
     .ipsApp, .content-wrapper, #ipsLayout_body {
          background-color: #9ca183 !important;
     }
@@ -131,17 +141,13 @@
     }
 
     /* message bg colors */
-    article:nth-of-type(even), article:nth-of-type(even) .ipsItemControls {
+
+    article:nth-of-type(even), article:nth-of-type(even) .ipsItemControls, article:nth-of-type(odd) .ipsQuote {
         background-color: #d3e3c0 !important;
     }
-    article:nth-of-type(even) .ipsQuote {
+
+    article:nth-of-type(odd), article:nth-of-type(odd) .ipsItemControls, article:nth-of-type(even) .ipsQuote {
         background-color: #c7d2b0 !important;
-    }
-    article:nth-of-type(odd), article:nth-of-type(odd) .ipsItemControls {
-        background-color: #c7d2b0 !important;
-    }
-    article:nth-of-type(odd) .ipsQuote {
-        background-color: #d3e3c0 !important;
     }
 
     /* fix author pane - remove redundant info */
