@@ -136,7 +136,7 @@
         display: none;
     }
 
-    .ipsPhotoPanel.ipsPhotoPanel_small > div {
+    .ipsPageHeader .ipsPhotoPanel.ipsPhotoPanel_small > div {
         margin-left: 15px !important;
     }
 
