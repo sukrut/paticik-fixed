@@ -325,7 +325,11 @@
 
         .ipsStreamItem:after {
             border-right-color: #d3e3c0 !important;
-          }
+        }
+
+        .ipsBox .cStreamFilter {
+            background: #c8d2b0;
+        }
 
         /*  ========================================
             polls
