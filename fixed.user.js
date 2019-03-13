@@ -321,5 +321,13 @@
         .ipsStreamItem_status {
             color: #333 !important;
         }
+
+        /*  ========================================
+            polls
+            ========================================*/
+
+        div[data-role="pollContents"] {
+            background-color: #d3e3c0 !important;
+        }
     `);
 })();
