@@ -301,5 +301,25 @@
     .ipsTags a:before {
         border-color: transparent transparent #9ca184 #9ca184 !important;
     }
+
+    /*  ========================================
+        activities
+        ========================================*/
+
+        div[data-role="streamBody"] .ipsBox_alt {
+            background-color: #c7d2b0 !important;
+        }
+
+        div[data-role="streamBody"] .ipsBox_alt .ipsStreamItem, .ipsStreamItem_contentType {
+            background-color: #d3e3c0 !important;
+        }
+
+        .ipsStreamItem.ipsStreamItem_contentBlock:before  {
+            border-color: transparent #c7d2b0 transparent transparent !important;
+        }
+
+        .ipsStreamItem_status {
+            color: #333 !important;
+        }
     `);
 })();
