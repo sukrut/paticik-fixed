@@ -22,6 +22,7 @@
 
     body {
         font-family: verdana, sans-serif, helvetica !important;
+        color: #313131 !important;
     }
 
     /* add top-margin */
