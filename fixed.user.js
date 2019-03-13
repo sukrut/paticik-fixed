@@ -174,20 +174,28 @@
         post changes
         ========================================*/
 
-    /* post bgcolors */
+    /* fix inner spoiler alternating colors */
 
-    article:nth-of-type(even),
-    article:nth-of-type(even) .ipsItemControls,
-    article:nth-of-type(even) .cRatingColumn,
-    articlearticle:nth-of-type(odd) .ipsQuote {
-        background-color: #d3e3c0 !important;
-    }
+    /* post bgcolors */
 
     article:nth-of-type(odd),
     article:nth-of-type(odd) .ipsItemControls,
     article:nth-of-type(odd) .cRatingColumn,
-    article:nth-of-type(even) .ipsQuote {
+    article:nth-of-type(even) .ipsQuote,
+    article:nth-of-type(even) .ipsSpoiler {
         background-color: #c7d2b0 !important;
+    }
+
+    article:nth-of-type(even),
+    article:nth-of-type(even) .ipsItemControls,
+    article:nth-of-type(even) .cRatingColumn,
+    article:nth-of-type(odd) .ipsQuote,
+    article:nth-of-type(odd) .ipsSpoiler {
+        background-color: #d3e3c0 !important;
+    }
+
+    .ipsSpoiler_header, .ipsQuote_citation {
+        background-color: #7f8464 !important;
     }
 
     /* remove avatars */
@@ -238,6 +246,20 @@
 
     a[data-mentionid] {
         background-color: #9ca184 !important;
+    }
+
+    /*  ========================================
+        tags
+        ========================================*/
+
+    /* change bgcolor of tags */
+
+    .ipsTags a {
+        background-color: #9ca184 !important;
+    }
+
+    .ipsTags a:before {
+        border-color: transparent transparent #9ca184 #9ca184 !important;
     }
     `);
 })();
