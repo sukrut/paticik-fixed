@@ -176,11 +176,17 @@
 
     /* post bgcolors */
 
-    article:nth-of-type(even), article:nth-of-type(even) .ipsItemControls, article:nth-of-type(odd) .ipsQuote {
+    article:nth-of-type(even),
+    article:nth-of-type(even) .ipsItemControls,
+    article:nth-of-type(even) .cRatingColumn,
+    articlearticle:nth-of-type(odd) .ipsQuote {
         background-color: #d3e3c0 !important;
     }
 
-    article:nth-of-type(odd), article:nth-of-type(odd) .ipsItemControls, article:nth-of-type(even) .ipsQuote {
+    article:nth-of-type(odd),
+    article:nth-of-type(odd) .ipsItemControls,
+    article:nth-of-type(odd) .cRatingColumn,
+    article:nth-of-type(even) .ipsQuote {
         background-color: #c7d2b0 !important;
     }
 
