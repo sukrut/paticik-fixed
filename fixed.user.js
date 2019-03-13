@@ -159,7 +159,7 @@
     /* fix topic list bgcolor */
 
     .cForumTopicTable > li.ipsDataItem:nth-of-type(even) {
-         background-color: #c7d2b0 !important;
+        background-color: #c7d2b0 !important;
     }
 
     .cForumTopicTable > li.ipsDataItem:nth-of-type(odd) {
@@ -167,8 +167,22 @@
     }
 
     .ipsDataItem span, .ipsDataItem time {
-         color: #666 !important;
+        color: #666 !important;
     }
+
+    /* fix selected topics */
+
+    /* needs more work!
+
+    .cForumTopicTable > li.ipsDataItem:nth-of-type(even).ipsDataItem_selected,
+    .cForumTopicTable > li.ipsDataItem:nth-of-type(even).ipsDataItem_selected span,
+    .cForumTopicTable > li.ipsDataItem:nth-of-type(odd).ipsDataItem_selected,
+    .cForumTopicTable > li.ipsDataItem:nth-of-type(odd).ipsDataItem_selected span
+    {
+        background-color: #7e8465 !important;
+        color: #fff !important;
+    }
+    */
 
     /*  ========================================
         post changes
