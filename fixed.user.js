@@ -257,11 +257,15 @@
 
     /* reply box bgcolor */
 
-    .cTopicPostArea {
+    .cTopicPostArea, .cTopicPostArea .ipsComposeArea_editor, .cTopicPostArea .ipsToolList {
         background-color: #d3e3c0 !important
     }
 
-    .cTopicPostArea .ipsComposeArea_editor, .cTopicPostArea .ipsToolList {
+    /*  ========================================
+        new post box
+        ========================================*/
+
+    .ipsTabs_panels, .ipsAreaBackground, .ipsAreaBackground_light {
         background-color: #d3e3c0 !important
     }
 
