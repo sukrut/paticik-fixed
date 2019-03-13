@@ -203,6 +203,7 @@
     article:nth-of-type(odd),
     article:nth-of-type(odd) .ipsItemControls,
     article:nth-of-type(odd) .cRatingColumn,
+    article:nth-of-type(odd) .ipsToolList,
     article:nth-of-type(even) .ipsQuote,
     article:nth-of-type(even) .ipsSpoiler {
         background-color: #c7d2b0 !important;
@@ -211,6 +212,7 @@
     article:nth-of-type(even),
     article:nth-of-type(even) .ipsItemControls,
     article:nth-of-type(even) .cRatingColumn,
+    article:nth-of-type(even) .ipsToolList,
     article:nth-of-type(odd) .ipsQuote,
     article:nth-of-type(odd) .ipsSpoiler {
         background-color: #d3e3c0 !important;
@@ -249,13 +251,25 @@
         color: #444 !important;
     }
 
+    /*  ========================================
+        reply box
+        ========================================*/
+
     /* reply box bgcolor */
 
     .cTopicPostArea {
         background-color: #d3e3c0 !important
     }
 
-    /* post-page bottom bar */
+    .cTopicPostArea .ipsComposeArea_editor, .cTopicPostArea .ipsToolList {
+        background-color: #d3e3c0 !important
+    }
+
+    /*  ========================================
+        posts page bottom bar
+        ========================================*/
+
+    /* change bgcolor */
     .ipsGrid {
         background-color: #d3e3c0 !important
     }
